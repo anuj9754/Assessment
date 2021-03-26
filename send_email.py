@@ -14,7 +14,7 @@ class SendMail:
 
         s.starttls()
 
-        s.login("achandil86@gmail.com", "ppuiphtpiruewpog")
+        s.login("achandil86@gmail.com", "xxxxxxxxxx")
 
         # sending the mail
         s.sendmail('achandil86@gmail.com', self.recipient, message)
